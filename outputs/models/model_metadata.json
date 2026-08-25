@@ -1,0 +1,21 @@
+{
+    "model_type": "SVC",
+    "best_parameters": {
+        "C": 0.1,
+        "gamma": "scale",
+        "kernel": "linear"
+    },
+    "train_cv_accuracy": 0.975,
+    "test_accuracy": 0.9333333333333333,
+    "class_names": [
+        "Iris-setosa",
+        "Iris-versicolor",
+        "Iris-virginica"
+    ],
+    "features": [
+        "sepal_length",
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+    ]
+}
